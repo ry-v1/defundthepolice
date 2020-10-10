@@ -1,6 +1,6 @@
 import streamlit as st
 
-from apps import home, county_compare
+from apps import home, county_compare, all_counties_compare
 
 PAGES = {
     "Home": home.view,
