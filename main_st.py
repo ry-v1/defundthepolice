@@ -5,6 +5,7 @@ from apps import home, county_compare
 PAGES = {
     "Home": home.view,
     "County Compare": county_compare.view,
+    "All Counties Compare": all_counties_compare.view,
 }
 
 
